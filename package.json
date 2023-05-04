@@ -10,11 +10,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "jest": {
-    "transform": {
-      "^.+\\.[t|j]sx?$": "babel-jest"
-    }
-  },
   "devDependencies": {
     "@babel/preset-env": "^7.21.5",
     "babel-jest": "^29.5.0",
