@@ -30,7 +30,7 @@ export default {
   // ],
 
   // Indicates which provider should be used to instrument code for coverage
-  // collectCoverage: true,
+  collectCoverage: true,
   coverageProvider: "v8",
   coverageThreshold: {
     global: {
