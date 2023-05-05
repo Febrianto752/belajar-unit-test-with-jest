@@ -22,7 +22,7 @@ describe("test asynchronous", () => {
 });
 
 describe("test async matchers", () => {
-  it("should be resolve", async () => {
+  it("should be resolve or reject", async () => {
     await expect(fetchData(true)).resolves.toBe("berhasil");
     await expect(fetchData(false)).rejects.toBe("gagal");
   });

@@ -17,7 +17,6 @@ export default {
   // clearMocks: false,
 
   // Indicates whether the coverage information should be collected while executing the test
-  collectCoverage: true,
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
   // collectCoverageFrom: undefined,
@@ -31,6 +30,7 @@ export default {
   // ],
 
   // Indicates which provider should be used to instrument code for coverage
+  // collectCoverage: true,
   coverageProvider: "v8",
   coverageThreshold: {
     global: {
@@ -40,7 +40,7 @@ export default {
       statements: -10,
     },
   },
-  collectCoverageFrom: ["src/**/*.{js,jsx}", "vendor/**/*.{js,jsx}"],
+  // collectCoverageFrom: ["src/**/*.{js,jsx}", "vendor/**/*.{js,jsx}"],
 
   // A list of reporter names that Jest uses when writing coverage reports
   // coverageReporters: [
