@@ -7,3 +7,13 @@ export const sum = (numbers) => {
 
   return total;
 };
+
+export const sumWithCallback = (numbers, callback) => {
+  let total = 0;
+
+  numbers.forEach((number) => {
+    total += number;
+  });
+
+  return callback(total);
+};

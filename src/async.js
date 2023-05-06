@@ -6,3 +6,8 @@ export const fetchData = (arg) => {
     return reject("gagal");
   });
 };
+
+export const getBalance = async (name, from) => {
+  let balance = await from();
+  return { name, balance };
+};
